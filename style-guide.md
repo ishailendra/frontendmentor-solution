@@ -7,29 +7,26 @@ The designs were created to the following widths:
 - Mobile: 375px
 - Desktop: 1440px
 
-> 💡 These are just the design sizes. Ensure content is responsive and meets WCAG requirements by testing the full range of screen sizes from 320px to large screens.
-
 ## Colors
 
 ### Primary
 
-- Yellow: hsl(47, 88%, 63%)
+- Light Cyan: hsl(193, 38%, 86%)
+- Neon Green: hsl(150, 100%, 66%)
 
 ### Neutral
 
-- White: hsl(0, 0%, 100%)
-- Grey: hsl(0, 0%, 50%)
-- Black: hsl(0, 0%, 7%)
+- Grayish Blue: hsl(217, 19%, 38%)
+- Dark Grayish Blue: hsl(217, 19%, 24%)
+- Dark Blue: hsl(218, 23%, 16%)
 
 ## Typography
 
 ### Body Copy
 
-- Font size (paragraph): 16px
+- Font size (quote): 28px
 
 ### Font
 
-- Family: [Figtree](https://fonts.google.com/specimen/Figtree)
-- Weights: 500, 800
-
-> 💎 This is a free+ challenge. So, if you want to see all the design details and practice working with professional tools like Figma, you can download the design file from where you downloaded the starter code.
+- Family: [Manrope](https://fonts.google.com/specimen/Manrope)
+- Weights: 800
