@@ -67,6 +67,11 @@ body {
     margin-bottom: 1rem;
 }
 
+.course-title:hover {
+    color: var(--yellow);
+    cursor: pointer;
+}
+
 .course-desc {
     font-size: 1rem;
     font-weight: 400;
