@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+    --yellow: hsl(47, 88%, 63%);
+    --white: hsl(0, 0%, 100%);
+    --grey: hsl(0, 0%, 50%);
+    --black: hsl(0, 0%, 7%);
+    --blue: hsl(228, 45%, 44%);
+
+    font-size: 16px;
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    background-color: var(--yellow);
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    max-width: 20rem;
+    background-color: var(--white);
+    padding: 1.5rem;
+    border-radius: 1.25rem;
+    box-shadow: 1rem 1rem 0 var(--black);
+}
+
+.illustration {
+    border-radius: 0.625rem;
+    margin-bottom: 1.5rem;
+}
+
+.course-tag {
+    padding: 0.25rem 0.75rem;
+    background-color: var(--yellow);
+    font-weight: 800;
+    border-radius: 0.25rem;
+    width: fit-content;
+    margin-bottom: 0.75rem;
+    line-height: 150%;
+}
+
+.publish-date {
+    font-weight: 400;
+    font-size: 0.875rem;
+    margin-bottom: 1rem;
+}
+
+.course-title {
+    font-weight: 800;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.course-desc {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--grey);
+    line-height: 150%;
+    margin-bottom: 1.5rem;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+}
+
+.author-img {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+}
+
+.author-name {
+    font-size: 0.875rem;
+    font-weight: 800;
+    line-height: 150%;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    position: absolute;
+    bottom: 0.5rem
+
+}
+
+.attribution a {
+    color: var(--blue);
+}
+
+
+@media (max-width: 48rem)  {
+    .card {
+        max-width: 16rem;
+    }
+}
